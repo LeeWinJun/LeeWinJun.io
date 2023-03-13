@@ -1,0 +1,42 @@
+#benner {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 162px 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+#benner::before {
+  content: "ABOUT";
+  position: absolute;
+  color: #151515;
+  display: inline-block;
+  font-size: 250px;
+  right: -15%;
+  bottom: 0;
+  font-weight: 600;
+}
+#benner h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+#benner p {
+  margin-top: 27px;
+  line-height: 27px;
+}
+#benner .home a:first-child::after {
+  content: " > ";
+  display: inline-block;
+  margin: 15px;
+}
+/* #fonts */
+#fonts {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 162px 0;
+  text-align: center;
+}
+#fonts h2 {
+  font-size: 128px;
+  text-transform: uppercase;
+}
