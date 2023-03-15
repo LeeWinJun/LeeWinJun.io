@@ -57,9 +57,9 @@
   position: relative;
 }
 #rowSlide .box {
-  width: 1440px;
-  /* height: 912px; */
-  /* overflow: hidden; */
+  width: 960px;
+  height: 912px;
+  overflow: hidden;
   z-index: -1;
   /* position: absolute; */
   /* max-width: 1118.81px;
@@ -77,17 +77,18 @@
 #rowSlide .rowFlex {
   display: flex;
   align-items: flex-end;
+  /* justify-content: center; */
 }
 #rowSlide .rowFlex img {
   width: 960px;
   height: 100%;
 }
 #rowSlide .rowFlex span {
-  /* margin-right: 255px; */
+  margin-left: 255px;
   width: 459px;
 }
 #rowSlide .rowFlex:last-child span {
-  margin: 0px 119px 100px 159px;
+  margin: 0px 119px 100px 255px;
 }
 #rowSlide .rowFlex span h3,
 #business .mamo h3,

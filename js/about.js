@@ -39,10 +39,11 @@ gsap.to("#rowSlide .box", {
   scrollTrigger: {
     trigger: "#rowSlide .box",
     start: "top 0%",
-    endTrigger: "#rowSlide",
-    scrub: 1,
+    endTrigger: "#rowSlide .box",
+    scrub: 2,
     pin: true,
   },
+  // y: 400,
 });
 
 //slide
