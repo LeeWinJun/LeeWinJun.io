@@ -3,11 +3,13 @@
 let gridSwiper = new Swiper('.main_slide_img', {
     slidesPerView: 'auto',
     loop: true,
-    speed:800,
+    speed: 800,
+    parallax: true,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+    
 })
 
 let bgSwiper = new Swiper('.main_bg', {
@@ -34,6 +36,19 @@ let bgSwiper = new Swiper('.main_bg', {
                    '<span class="' + totalClass + '"></span>';
         }
     },
+    on: {
+        beforeSlideChangeStart: function () {
+            let effectTxt = document.querySelector('.main_txt_wrap');
+            effectTxt.classList.add('active');
+            console.log("실행하기 전");
+        },
+        slideChange: function () {
+            let effectTxt = document.querySelector('.main_txt_wrap');
+            console.log("실행");
+            effectTxt.classList.remove('active');
+        }
+       
+   }
 })
 
 gridSwiper.controller.control = bgSwiper;
@@ -73,7 +88,6 @@ let swiperDesigner = new Swiper(".designer_slider .swiper", {
             let slideTitles = ['NOAH NAM', 'KIM JISU', 'KIM AYOUNG', 'HYUNJOO KWAK', 'JIMIN LEE', 'CHOI CHUNGHUN'];
             //현재 실제로 보여지고 있는 슬라이드의 인덱스 번호다.
             let currentSlideIndex = swiperDesigner.realIndex;
-            console.log(currentSlideIndex);
             //현재 슬라이드에 해당하는 제목 가져오기
             let currentSlideTitle = slideTitles[currentSlideIndex];
             //Html에 있는 designer_name 변경
