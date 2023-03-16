@@ -1,24 +1,31 @@
-$.ajax({
-  url: "./js/designer.json",
-  dataType: "json",
-  success: function (data) {
-    //json type array 처리구문
-    // let str = JSON.stringify(data);
-    // console.log(str);
-    for (let i in data) {
-      console.log(data[i].a.member[0]);
-      //   $(".designers").append(`<li>${data.filter[i].member}</li>`);
-      //   let member = data[i].filter;
-      //   console.log(member[i]);
-      //   $(".designers").append(
-      //     `<li>
-      //         <img src=${member[i].image} alt="" />
-      //         <figcaption>
-      //           <h1>${member[i].name}</h1>
-      //         </figcaption>
-      //       </li>`
-      //   );
-    }
-    // console.log(data.filter);
-  },
-});
+for (i of document.querySelectorAll(".abc a")) {
+  i.addEventListener("click", (e) => {
+    e.preventDefault();
+    let str = e.currentTarget.closest("li").dataset.filter;
+
+    $.ajax({
+      url: "./js/designer.json",
+      dataType: "json",
+      success: function (data) {
+        //json type array 처리구문
+        for (let i in data) {
+          // for (let j = 0; j < data[i].length; j++) {
+          for (j of data[i][str]) {
+            console.log(j);
+            let member = j;
+            console.log(member);
+            $(".designers").append(
+              `
+              <li>
+              <img src="${member.image}" alt="" />
+              <p>${member.name}</p>
+            </li>
+             `
+            );
+          }
+        }
+        // console.log(data.filter);
+      },
+    });
+  });
+}

@@ -1,44 +1,40 @@
 {
   "filter": {
-    "a": {
-      "member": [
-        {
-          "name": "A.BELL",
-          "image": "./images/designer.png"
-        },
-        {
-          "name": "AIMONS",
-          "image": "./images/designer.png"
-        },
-        {
-          "name": "AJOBYAJO",
-          "image": "./images/designer.png"
-        },
-        {
-          "name": "ANONYMOUTH",
-          "image": "./images/designer.png"
-        }
-      ]
-    },
-    "b": {
-      "member": [
-        {
-          "name": "A.BELL",
-          "image": "./images/designer.png"
-        },
-        {
-          "name": "AIMONS",
-          "image": "./images/designer.png"
-        },
-        {
-          "name": "AJOBYAJO",
-          "image": "./images/designer.png"
-        },
-        {
-          "name": "ANONYMOUTH",
-          "image": "./images/designer.png"
-        }
-      ]
-    }
+    "a": [
+      {
+        "name": "A.BELL",
+        "image": "./images/designer.png"
+      },
+      {
+        "name": "AIMONS",
+        "image": "./images/designer.png"
+      },
+      {
+        "name": "AJOBYAJO",
+        "image": "./images/designer.png"
+      },
+      {
+        "name": "ANONYMOUTH",
+        "image": "./images/designer.png"
+      }
+    ],
+    "b": [
+      {
+        "name": "b.BELL",
+        "image": "./images/designer.png"
+      },
+      {
+        "name": "BIMONS",
+        "image": "./images/designer.png"
+      },
+      {
+        "name": "BJOBYAJO",
+        "image": "./images/designer.png"
+      },
+      {
+        "name": "BNONYMOUTH",
+        "image": "./images/designer.png"
+      }
+    ]
   }
 }
