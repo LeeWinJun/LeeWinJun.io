@@ -101,17 +101,30 @@ div[class*="swiper-button"]{
     width: 1288px;
     height: 100vh;
 }
+.bg_wrapper img{
+    filter: blur(5px);
+}
 .main_txt_wrap{
     grid-column: 2 / 3;
     grid-row: 4 / 5;
     z-index: 1;
+    transform: translate(0);
+    transition: transform 0.2s;
+    opacity: 1;
+    visibility: visible;
+}
+.main_txt_wrap.active{
+    transform: translateY(-50%);
+    transition: transform 0.2s;
+    opacity: 0;
+    visibility: hidden;
 }
 .main_slide_img{
     grid-column: 4/ span 5;
     grid-row: 3/span 3;
 }
 .main_txt{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 80px;
     grid-column: 2 / span 1;
     
@@ -500,3 +513,7 @@ position: relative;
     width: 240px;
 }
 
+.brand .swiper-wrapper{
+    transition-timing-function: linear;
+    /* 이 코드를 넣어야 자연스럽게 넘어가는게 가능하다. */
+}
