@@ -36,20 +36,21 @@ let bgSwiper = new Swiper('.main_bg', {
                    '<span class="' + totalClass + '"></span>';
         }
     },
-    on: {
-        beforeSlideChangeStart: function () {
-            let effectTxt = document.querySelector('.main_txt_wrap');
+
+})
+bgSwiper.on('beforeSlideChangeStart',()=>{
+    let effectTxt = document.querySelector('.main_txt_wrap');
             effectTxt.classList.add('active');
             console.log("실행하기 전");
-        },
-        slideChange: function () {
-            let effectTxt = document.querySelector('.main_txt_wrap');
-            console.log("실행");
-            effectTxt.classList.remove('active');
-        }
-       
-   }
 })
+
+bgSwiper.on('slideChange',()=>{
+    let effectTxt = document.querySelector('.main_txt_wrap');
+            effectTxt.classList.remove('active');
+            console.log("실행");
+})
+
+
 
 gridSwiper.controller.control = bgSwiper;
 bgSwiper.controller.control = gridSwiper;
@@ -178,3 +179,7 @@ let brandSwiper = new Swiper('.brand_list_wrapper', {
 
     
 })
+
+
+
+
