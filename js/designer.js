@@ -7,10 +7,12 @@ for (i of document.querySelectorAll(".abc a")) {
       url: "./js/designer.json",
       dataType: "json",
       success: function (data) {
+        console.log(data);
         //json type array 처리구문
         for (let i in data) {
           // for (let j = 0; j < data[i].length; j++) {
           for (j of data[i][str]) {
+            // console.log(str);
             console.log(j);
             let member = j;
             console.log(member);
@@ -18,7 +20,9 @@ for (i of document.querySelectorAll(".abc a")) {
               `
               <li>
               <img src="${member.image}" alt="" />
+              <div class="blacks">
               <p>${member.name}</p>
+              </div>
             </li>
              `
             );
