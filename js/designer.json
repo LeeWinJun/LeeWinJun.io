@@ -7,33 +7,109 @@
       },
       {
         "name": "AIMONS",
-        "image": "./images/designer.png"
+        "image": "./images/designer_a02.png"
       },
       {
         "name": "AJOBYAJO",
-        "image": "./images/designer.png"
+        "image": "./images/designer_a03.png"
       },
       {
         "name": "ANONYMOUTH",
-        "image": "./images/designer.png"
+        "image": "./images/designer_a04.png"
       }
     ],
     "b": [
       {
-        "name": "b.BELL",
-        "image": "./images/designer.png"
+        "name": "BEYOND CLOSET",
+        "image": "./images/designer_b01.png"
       },
       {
-        "name": "BIMONS",
-        "image": "./images/designer.png"
+        "name": "BIG PARK",
+        "image": "./images/designer_b02.png"
       },
       {
-        "name": "BJOBYAJO",
-        "image": "./images/designer.png"
+        "name": "BMUET(TE)",
+        "image": "./images/designer_b03.png"
       },
       {
-        "name": "BNONYMOUTH",
-        "image": "./images/designer.png"
+        "name": "BONBOM",
+        "image": "./images/designer_b04.png"
+      },
+      {
+        "name": "BLR BLUER",
+        "image": "./images/designer_b05.png"
+      }
+    ],
+    "c": [
+      {
+        "name": "C-ZANN E",
+        "image": "./images/designer_c01.png"
+      },
+      {
+        "name": "CANIERS",
+        "image": "./images/designer_c02.png"
+      },
+      {
+        "name": "CARUSO",
+        "image": "./images/designer_c03.png"
+      },
+      {
+        "name": "CHARM'S",
+        "image": "./images/designer_c04.png"
+      }
+    ],
+    "d": [
+      {
+        "name": "DEMOO PARKCHOONMOO",
+        "image": "./images/designer_d01.png"
+      },
+      {
+        "name": "DEW E DEW E",
+        "image": "./images/designer_d02.png"
+      },
+      {
+        "name": "DOUCAN",
+        "image": "./images/designer_d03.png"
+      }
+    ],
+    "e": [
+      {
+        "name": "EENY",
+        "image": "./images/designer_e01.png"
+      },
+      {
+        "name": "ENSUE",
+        "image": "./images/designer_e02.png"
+      }
+    ],
+    "f": [
+      {
+        "name": "FLENO SEOUL",
+        "image": "./images/designer_f01.png"
+      }
+    ],
+    "g": [
+      {
+        "name": "GAZE DE LIN",
+        "image": "./images/designer_g01.png"
+      },
+      {
+        "name": "GRAPHISTE MAN.G",
+        "image": "./images/designer_g02.png"
+      },
+      {
+        "name": "GREEDILOUS",
+        "image": "./images/designer_g03.png"
+      }
+    ],
+    "h": [
+      {
+        "name": "HANACHA STUDIO",
+        "image": "./images/designer_h01.png"
+      },
+      {
+        "name": "HOLY NUMBER 7",
+        "image": "./images/designer_h02.png"
       }
     ]
   }
