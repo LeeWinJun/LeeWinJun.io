@@ -1,3 +1,7 @@
+// index.html-----------------------------------------
+
+
+
 // main
 
 let gridSwiper = new Swiper('.main_slide_img', {
@@ -38,17 +42,6 @@ let bgSwiper = new Swiper('.main_bg', {
     },
 
 })
-bgSwiper.on('beforeSlideChangeStart',()=>{
-    let effectTxt = document.querySelector('.main_txt_wrap');
-            effectTxt.classList.add('active');
-            console.log("실행하기 전");
-})
-
-bgSwiper.on('slideChange',()=>{
-    let effectTxt = document.querySelector('.main_txt_wrap');
-            effectTxt.classList.remove('active');
-            console.log("실행");
-})
 
 
 
@@ -60,6 +53,7 @@ bgSwiper.controller.control = gridSwiper;
 let swiperDesigner = new Swiper(".designer_slider .swiper", {
     slidesPerView: 2,
     loop: true,
+    speed:600,
     spaceBetween: 70,
     allowTouchMove: false,
     navigation: {
@@ -102,6 +96,7 @@ let swiper = new Swiper(".codi .swiper", {
     spaceBetween: 10,
     slidesPerView: 6,
     loop: true,
+    speed:600,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -114,6 +109,7 @@ let swiperMagazine = new Swiper(".magazine .swiper", {
     slidesPerView: 3,
     spaceBetween: 10,
     loop: true,
+    speed:600,
     loopedSlides:3,
     navigation: {
         nextEl: '.swiper-button-next',
@@ -157,6 +153,7 @@ thumbSwiper.controller.control = mainSwiper;
 let socailSwiper = new Swiper('.social_swiper', {
     loop: true,
     spaceBetween: 20,
+    speed:600,
     slidesPerView: 'auto',
     freeMode:true,
     navigation: {
@@ -178,6 +175,25 @@ let brandSwiper = new Swiper('.brand_list_wrapper', {
     }
 
     
+})
+
+
+
+// media.html-----------------------------------------
+
+
+
+
+//magazine
+
+let magazineSwiper = new Swiper(".magazine_swiper", {
+    slidesPerView: 4,
+    spaceBetween: 10,
+    loop: true,
+    navigation: {
+        nextEl:'.swiper-magazine-next',
+        prevEl:'.swiper-magazine-prev'
+    },
 })
 
 

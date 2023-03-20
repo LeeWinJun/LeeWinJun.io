@@ -61,7 +61,9 @@ section{
     margin-bottom: 300px;
     max-width: 1920px;
 }
-
+strong{
+    font-weight: 600;
+}
 /* top_btn */
 .top_btn{
     display: block;
@@ -71,13 +73,18 @@ section{
     background-color: #E8CB32;
     right: 100px;
     bottom: 100px;
-    border-radius: 30px;
+    border-radius: 50%;
     z-index: 20;
     text-align: center;
     font-size: 18px;
     line-height: 60px;
-    transition: opacity 0.3s;
+    transition: all 0.3s;
     opacity: 0;
+}
+.top_btn:hover{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
 }
 .top_btn.on{
     opacity: 1;
@@ -90,6 +97,7 @@ header{
     position: fixed;
     left: 0;
     top: 0;
+    background-color: rgba(0,0,0,0.2);
 }
 header.active{
     
