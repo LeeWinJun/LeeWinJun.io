@@ -111,6 +111,218 @@
         "name": "HOLY NUMBER 7",
         "image": "./images/designer_h02.png"
       }
+    ],
+    "i": [
+      {
+        "name": "ICE GARDEN",
+        "image": "./images/designer_i01.png"
+      },
+      {
+        "name": "IRYUK",
+        "image": "./images/designer_i02.png"
+      }
+    ],
+    "j": [
+      {
+        "name": "JCHOI",
+        "image": "./images/designer_j01.png"
+      },
+      {
+        "name": "JIMINLEE",
+        "image": "./images/designer_j02.png"
+      },
+      {
+        "name": "JULYCOLUMN",
+        "image": "./images/designer_j03.png"
+      },
+      {
+        "name": "JUNG HEEZIN",
+        "image": "./images/designer_j04.png"
+      }
+    ],
+    "k": [
+      {
+        "name": "KIMZISU",
+        "image": "./images/designer_k01.png"
+      },
+      {
+        "name": "KUMANN YOO HYE JIN",
+        "image": "./images/designer_k02.png"
+      },
+      {
+        "name": "KWAK HYUN JOO",
+        "image": "./images/designer_k03.png"
+      }
+    ],
+    "L": [
+      {
+        "name": "LIE",
+        "image": "./images/designer_k01.png"
+      },
+      {
+        "name": "LIE SANG BONG",
+        "image": "./images/designer_k02.png"
+      }
+    ],
+    "M": [
+      {
+        "name": "M.ROF",
+        "image": "./images/designer_M01.png"
+      },
+      {
+        "name": "MAISON NICA",
+        "image": "./images/designer_M02.png"
+      },
+      {
+        "name": "METROCITY",
+        "image": "./images/designer_M03.png"
+      },
+      {
+        "name": "MINA CHUNG",
+        "image": "./images/designer_M04.png"
+      },
+      {
+        "name": "MISS GEE COLLE CTION",
+        "image": "./images/designer_M05.png"
+      },
+      {
+        "name": "MMAM",
+        "image": "./images/designer_M06.png"
+      },
+      {
+        "name": "MODERNABLE",
+        "image": "./images/designer_M07.png"
+      },
+      {
+        "name": "MUSEE",
+        "image": "./images/designer_M08.png"
+      }
+    ],
+    "N": [
+      {
+        "name": "NAVY SCANDAL",
+        "image": "./images/designer_N01.png"
+      },
+      {
+        "name": "NODICOMA",
+        "image": "./images/designer_N02.png"
+      },
+      {
+        "name": "NOHANT",
+        "image": "./images/designer_N03.png"
+      },
+      {
+        "name": "NOT ENOF WORDS DEARLIFE",
+        "image": "./images/designer_N04.png"
+      },
+      {
+        "name": "NOTKNOWING",
+        "image": "./images/designer_N05.png"
+      }
+    ],
+    "O": [
+      {
+        "name": "ORDINARY PEOPLE",
+        "image": "./images/designer_O01.png"
+      }
+    ],
+    "P": [
+      {
+        "name": "PAINTERS",
+        "image": "./images/designer_P01.png"
+      },
+      {
+        "name": "PART OF UNIVERSE",
+        "image": "./images/designer_P02.png"
+      },
+      {
+        "name": "PARTSPARTS",
+        "image": "./images/designer_P03.png"
+      }
+    ],
+    "R": [
+      {
+        "name": "RINJEON",
+        "image": "./images/designer_R01.png"
+      }
+    ],
+    "S": [
+      {
+        "name": "SAINT",
+        "image": "./images/designer_S01.png"
+      },
+      {
+        "name": "SAINT MILL",
+        "image": "./images/designer_S02.png"
+      },
+      {
+        "name": "SEOKWOON YOON",
+        "image": "./images/designer_S03.png"
+      },
+      {
+        "name": "SLING STONE",
+        "image": "./images/designer_S04.png"
+      },
+      {
+        "name": "SONGZIO",
+        "image": "./images/designer_S05.png"
+      },
+      {
+        "name": "SSERPE",
+        "image": "./images/designer_S06.png"
+      },
+      {
+        "name": "SUNG JU",
+        "image": "./images/designer_S07.png"
+      }
+    ],
+    "T": [
+      {
+        "name": "TIBAEG",
+        "image": "./images/designer_T01.png"
+      },
+      {
+        "name": "TWWL(THE WAY WELIVE)",
+        "image": "./images/designer_T02.png"
+      }
+    ],
+    "U": [
+      {
+        "name": "UL:KIN",
+        "image": "./images/designer_U01.png"
+      }
+    ],
+    "V": [
+      {
+        "name": "VEGAN TIGER",
+        "image": "./images/designer_V01.png"
+      },
+      {
+        "name": "VIMUN.STUDIO",
+        "image": "./images/designer_V01.png"
+      }
+    ],
+    "W": [
+      {
+        "name": "WNDERKAMMER",
+        "image": "./images/designer_W01.png"
+      },
+      {
+        "name": "WOVEMENT",
+        "image": "./images/designer_W02.png"
+      }
+    ],
+    "Y": [
+      {
+        "name": "YUGADANG",
+        "image": "./images/designer_Y01.png"
+      }
+    ],
+    "#": [
+      {
+        "name": "#WHYSOCEREALZ!",
+        "image": "./images/designer_#01.png"
+      }
     ]
   }
 }
