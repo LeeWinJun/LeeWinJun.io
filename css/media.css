@@ -1,0 +1,108 @@
+.banner{
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_txt_wrap{
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_txt_wrap h2{
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+.banner_txt_wrap p{
+    width: 573px;
+}
+.banner_page_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.brand_crumb{
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    display: flex;
+    align-items: center;
+}
+.brand_crumb li:first-child a{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: url(../images/home_icon.png) no-repeat center/cover;
+}
+.brand_crumb li:first-child::after{
+    content: "";
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: url(../images/bread_crumb_arrow.png)no-repeat center/cover;
+    margin: 0 15px;
+}
+.banner_title{
+    font-size: 250px;
+    font-weight: 600;
+    color: #151515;
+}
+
+
+/* magazine */
+.magazine .swiper-slide{
+   height: 380px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   transition: background 0.3s;
+}
+.magazine div[class*=swiper-magazine]{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 20;
+    top: 104px;
+
+}
+.magazine .swiper-magazine-prev{
+left: 20px;
+}
+.magazine .swiper-magazine-next{
+right: 20px;
+}
+.magazine .swiper-slide p{
+    color: #a9a9a9;
+}
+.magazine .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.magazine .swiper-slide:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+.magazine h3{
+    margin: 20px 0;
+}
+.magazine-img-wrapper{
+    width: 100%;
+}
+.contents_data{
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.magazine .swiper-slide .contents_data li {
+    color: #5e5e5e;
+    font-size: 14px;
+}
+.contents_data li::after{
+    content: "|";
+    margin: 0 5px;
+}
+.contents_data li:last-child::after{
+    content: "";
+}
